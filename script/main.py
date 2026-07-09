@@ -5,7 +5,7 @@ import os
 def main():
     # 从环境变量读取 Token，保证安全性
     token = os.environ.get('PUSHPLUS_TOKEN')
-    symbol = "600519"  # 这里改成你想监控的股票代码
+    symbol = "000063"  # 这里改成你想监控的股票代码
     
     # 获取数据
     df = ak.stock_zh_a_spot_em()
